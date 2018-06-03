@@ -90,6 +90,11 @@ section {
     background-color: rgba(33, 37, 41, 0.5);
     line-height: 3.1rem; }
 
+/* line 98, /Users/LucaCastelnuovo/Documents/GitHub .nosync/Personal-Site/scss/_global.scss */
+.profile-picture {
+  width: 256px;
+  height: auto; }
+
 /* line 2, /Users/LucaCastelnuovo/Documents/GitHub .nosync/Personal-Site/scss/_navbar.scss */
 #mainNav {
   padding-top: 1rem;
