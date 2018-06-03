@@ -1,0 +1,8 @@
+# block access to .pdf
+<Files ~ "\.pdf$">
+    Order allow,deny
+    Deny from all
+</Files>
+
+#redirect
+Redirect /hacklab https://lucacastelnuovo.nl/files/view?id=f2b943464913cd1c102f2623c9918ea2d613b156c0fb5ecd14a9d91f58693d15

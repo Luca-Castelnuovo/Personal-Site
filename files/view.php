@@ -6,8 +6,8 @@ if (isset($_GET['id'])) {
 //        header('Content-Disposition: inline; filename="' . $name . '.pdf"');
         @readfile($file);
     } else {
-        header('Location: error?code=404');
+        header('Location: /');
     }
 } else {
-   
+   header('Location: /');
 }
