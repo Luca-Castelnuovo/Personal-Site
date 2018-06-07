@@ -325,12 +325,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
+    padding: 0;
+    padding-bottom: 25px;
+/*    color: #DC2F21;*/
     color: #fff;
-}
-
-footer .footer-below {
-    padding: 25px 0;
-    color: #DC2F21;
+    background-color: #DC2F21;
 }
 
 .btn-social {
