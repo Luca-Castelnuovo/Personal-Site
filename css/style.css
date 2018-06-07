@@ -183,6 +183,10 @@ section.red {
     color: #DC2F21;
 }
 
+section #contact {
+    margin-bottom: 0 !IMPORTANT;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
