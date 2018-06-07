@@ -330,6 +330,11 @@ footer {
     color: #DC2F21;
 }
 
+btn-prim {
+    color: #fff;
+    background-color: #DC2F21;
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;
