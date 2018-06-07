@@ -330,6 +330,10 @@ footer {
     color: #DC2F21;
 }
 
+.btn-outline {
+    margin-top: 0 !important;
+}
+
 .btn-prim {
     color: #fff !important;
     background-color: #DC2F21 !important;
