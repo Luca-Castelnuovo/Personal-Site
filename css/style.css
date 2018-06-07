@@ -183,10 +183,6 @@ section.red {
     color: #DC2F21;
 }
 
-.contact {
-    padding-bottom: 0 !important;
-}
-
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -331,9 +327,7 @@ form .row:first-child .floating-label-form-group {
 footer {
     padding: 0;
     padding-bottom: 25px;
-/*    color: #DC2F21;*/
-    color: #fff;
-    background-color: #DC2F21;
+    color: #DC2F21;
 }
 
 .btn-social {
