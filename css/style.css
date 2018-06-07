@@ -179,6 +179,10 @@ section.red {
     background: #DC2F21;
 }
 
+.btn-text-red {
+    color: #DC2F21;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
