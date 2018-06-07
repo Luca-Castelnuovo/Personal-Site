@@ -184,7 +184,7 @@ section.red {
 }
 
 .contact {
-    margin-bottom: 0 !IMPORTANT;
+    margin-bottom: 0;
 }
 
 @media(max-width:767px) {
