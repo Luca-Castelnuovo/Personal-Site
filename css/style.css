@@ -331,8 +331,8 @@ footer {
 }
 
 btn-prim {
-    color: #fff;
-    background-color: #DC2F21;
+    color: #fff !important;
+    background-color: #DC2F21 !important;
 }
 
 .btn-social {
