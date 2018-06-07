@@ -174,7 +174,7 @@ section h2 {
     font-size: 3em;
 }
 
-section.success {
+section#red {
     color: #fff;
     background: #DC2F21;
 }
@@ -187,11 +187,6 @@ section.success {
     section.first {
         padding-top: 75px;
     }
-}
-
-#red {
-    color: #fff;
-    background: #DC2F21;
 }
 
 #portfolio .portfolio-item {
