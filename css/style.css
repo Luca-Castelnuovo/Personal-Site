@@ -148,6 +148,7 @@ section.red {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    border-bottom: 2px solid #DC2F21;
 }
 
 #portfolio .portfolio-item .portfolio-link {
