@@ -17,5 +17,5 @@ ExpiresActive On
 ExpiresDefault "access plus 1 month"
 
 <Files "index.html">
-    ExpiresDefault "access plus 0 seconds"
+    ExpiresDefault "access plus 60 seconds"
 </Files>
