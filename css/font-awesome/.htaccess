@@ -1,0 +1,4 @@
+Header unset Last-Modified
+FileETag none
+ExpiresActive On
+ExpiresDefault "access plus 1 years"
