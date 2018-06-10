@@ -10,8 +10,9 @@ ErrorDocument 403 /
 ErrorDocument 404 /
 ErrorDocument 500 /
 
-#caching content
+
 Header unset Last-Modified
+FileETag none
 ExpiresActive On
 ExpiresDefault "access plus 1 years"
 
