@@ -1,3 +1,9 @@
+/*!
+ * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
 body {
     overflow-x: hidden;
 }
@@ -74,6 +80,10 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.img-thumbnail {
+    background-color: #DC2F21;
+}
+
 header {
     text-align: center;
     color: #fff;
@@ -103,8 +113,15 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+header .profile-picture {
+    width: 256px;
+    height: auto;
+    border-radius: 50%;
+}
+
 @media(min-width:768px) {
     header .container {
+        padding-top: 200px;
         padding-bottom: 100px;
     }
 
@@ -117,6 +134,53 @@ header .intro-text .skills {
     }
 }
 
+@media(min-width:768px) {
+    .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
 section {
     padding: 100px 0;
 }
@@ -126,13 +190,9 @@ section h2 {
     font-size: 3em;
 }
 
-section.red {
+section.success {
     color: #fff;
     background: #DC2F21;
-}
-
-.btn-text-red {
-    color: #DC2F21;
 }
 
 @media(max-width:767px) {
@@ -143,6 +203,10 @@ section.red {
     section.first {
         padding-top: 75px;
     }
+}
+
+section#contact {
+    padding-bottom: 0;
 }
 
 #portfolio .portfolio-item {
@@ -162,10 +226,11 @@ section.red {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(220, 47, 33, 0.9);
+    background: rgba(220, 47, 33, .9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+    border-radius: 4px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -277,23 +342,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 footer {
-    padding: 0;
-    padding-bottom: 25px;
     color: #DC2F21;
-}
-
-.btn-outline {
-    margin-top: 0 !important;
-}
-
-.btn-prim {
-    color: #fff !important;
-    background-color: #DC2F21 !important;
-}
-
-.btn-prim:hover {
-    background-color: #fff !important;
-    color: #DC2F21 !important;
+    padding-bottom: 25px;
 }
 
 .btn-social {
@@ -314,8 +364,25 @@ footer {
     outline: 0;
 }
 
-#portfolio {
-    padding-bottom: 0;
+.scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.scroll-top .btn:focus {
+    outline: 0;
 }
 
 .portfolio-modal .modal-content {
@@ -380,6 +447,10 @@ footer {
 .navbar-nav > .active > a {
     background-color: #233140 !important;
 }
+
+/* Fix modal mouse wheel issues */
+
+/* https://github.com/twbs/bootstrap/issues/16297 */
 
 .modal.fade.in {
     transform: translateZ(0);
