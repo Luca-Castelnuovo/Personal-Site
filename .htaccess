@@ -11,7 +11,6 @@ ErrorDocument 404 /
 ErrorDocument 500 /
 
 
-Header unset Last-Modified
 FileETag none
 ExpiresActive On
 ExpiresDefault "access plus 1 month"
