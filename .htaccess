@@ -15,6 +15,3 @@ Header unset Last-Modified
 ExpiresActive On
 ExpiresDefault "access plus 1 years"
 
-<Files "index.html">
-      ExpiresDefault "access plus 0 seconds"
-</Files>
