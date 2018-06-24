@@ -24,19 +24,3 @@ $(document).ready(function() {
 $(window).on('load',function() {
     smooth_scroll_to(window.location.hash);
 });
-
-function smooth_scroll_to(hash, e) {
-    if(hash === '') {
-        return false;
-    } else {
-        if($(hash).length > 0) {
-            if(typeof e !== 'undefined') {
-                e.preventDefault();
-                history.pushState(null, null, $(e.target).attr('href'));
-            }
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top - $('#first-element').height() - $('#second-element').height()
-            }, 350);
-        }
-    }
-}
