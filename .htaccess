@@ -3,13 +3,12 @@ Redirect /hacklab https://lucacastelnuovo.nl/files/f2b943464913cd1c102f2623c9918
 Redirect /cv https://lucacastelnuovo.nl/files/4d18db80e353e526ad6d42a62aaa29bec36af63f87acebba1c23498809db7537.pdf
 
 #errors
-ErrorDocument 400 /
-ErrorDocument 401 /
-ErrorDocument 402 /
-ErrorDocument 403 /
-ErrorDocument 404 /
-ErrorDocument 500 /
-
+ErrorDocument 400 /error.html
+ErrorDocument 401 /error.html
+ErrorDocument 402 /error.html
+ErrorDocument 403 /error.html
+ErrorDocument 404 /error.html
+ErrorDocument 500 /error.html
 
 FileETag none
 ExpiresActive On
