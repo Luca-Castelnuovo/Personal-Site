@@ -32,7 +32,7 @@
     transform: translate3d(0, -10px, 0);
 }
 
-/** Spinner **/
+/** Spinner credit: Mathijs Otterloo **/
 
 svg.spinner {
     width: 40px;
@@ -88,7 +88,7 @@ svg.spinner circle {
     }
 }
 
-/** /Preloader **/
+/** XXX **/
 
 .btn.active,
 .btn:active,
@@ -97,6 +97,8 @@ svg.spinner circle {
 .navbar a:focus {
     outline: 0
 }
+
+/** General **/
 
 body {
     overflow-x: hidden
@@ -129,6 +131,8 @@ h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700
 }
+
+/** Font Awesome **/
 
 hr.star-light,
 hr.star-primary {
@@ -175,6 +179,8 @@ hr.star-primary:after {
     color: #2c3e50;
     background-color: #fff
 }
+
+/** Header **/
 
 header,
 section.success {
