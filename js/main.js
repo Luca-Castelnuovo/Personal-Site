@@ -14,13 +14,3 @@ $(function(){$(".page-scroll a").bind("click",function(o){var l=$(this);$("html,
 
 //contact
 $(function(){$("input,textarea").jqBootstrapValidation({preventSubmit:!0,submitError:function(t,i,n){},filter:function(){return $(this).is(":visible")}}),$('a[data-toggle="tab"]').click(function(t){t.preventDefault(),$(this).tab("show")})}),$("#name").focus(function(){$("#success").html("")});
-
-$(document).ready(function() {
-    $('#link').on('click', function(e) {
-        smooth_scroll_to(this.hash, e);
-    });
-});
-
-$(window).on('load',function() {
-    smooth_scroll_to(window.location.hash);
-});
