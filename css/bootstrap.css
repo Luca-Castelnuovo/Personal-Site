@@ -2978,9 +2978,9 @@ textarea.input-lg, select[multiple].input-lg {
 }
 
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
-    color: #ffffff;
+    color: #DC2F21;
     background-color: #ffffff;
-    border-color: #11866f
+    border-color: #DC2F21
 }
 
 .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
