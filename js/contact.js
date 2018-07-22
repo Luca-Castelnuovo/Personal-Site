@@ -47,7 +47,6 @@ $(function() {
 
                     //clear all fields and reset captcha
                     grecaptcha.reset();
-                    $('#contactForm').trigger("reset");
                 },
             })
         },
