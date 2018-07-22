@@ -34,7 +34,7 @@ $result = json_decode($result, true);
 if ($result['status'] != 'true') {
     header('HTTP/1.1 400 Bad Request');
     header('Content-Type: application/json; charset=UTF-8');
-    die(json_encode(array('message' => 'Please complete the recaptcha!2')));
+    die(json_encode(array('message' => 'Please complete the recaptcha!')));
 }
 
 //Check if email valid
