@@ -16,7 +16,6 @@ $(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['Home', 'Portfolio', 'AboutMe', 'ContactMe'],
 				sectionsColor: ['#dc2f21', '#ffffff', '#dc2f21', '#ffffff'],
-				menu: '#menu',
 				navigation: true,
 				navigationPosition: 'right',
 				navigationTooltips: ['Home', 'Portfolio', 'About Me', 'Contact Me'],
