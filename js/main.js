@@ -33,17 +33,6 @@ $(function() {
 
 //fullpage js
 $(document).ready(function() {
-<<<<<<< HEAD
-			$('#fullpage').fullpage({
-				anchors: ['Home', 'Portfolio', 'AboutMe', 'ContactMe'],
-				sectionsColor: ['#dc2f21', '#ffffff', '#dc2f21', '#ffffff'],
-				navigation: true,
-				navigationPosition: 'right',
-				navigationTooltips: ['Home', 'Portfolio', 'About Me', 'Contact Me'],
-				responsiveWidth: 1100
-			});
-		});
-=======
     $('#fullpage').fullpage({
         anchors: ['Home', 'Portfolio', 'AboutMe', 'ContactMe'],
         sectionsColor: ['#dc2f21', '#ffffff', '#dc2f21', '#ffffff'],
@@ -54,7 +43,6 @@ $(document).ready(function() {
         responsiveWidth: 1100
     });
 });
->>>>>>> 65b9cae3aedf17d183eb0174d3b20ee71baa5fd3
 
 //remove loader
 $('#page-top').imagesLoaded(function() {
