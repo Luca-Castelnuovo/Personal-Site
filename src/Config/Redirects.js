@@ -6,7 +6,8 @@ const Redirects = {
     mail: 'mailto:ltcastelnuovo@gmail.com',
     pgp: 'https://lucacastelnuovo.nl/keys/pgp.pdf',
     ssh: 'https://lucacastelnuovo.nl/keys/ssh.pdf',
-    twitter: 'https://twitter.com/LucaCastelnuovo'
+    twitter: 'https://twitter.com/LucaCastelnuovo',
+    nas: 'https://quickconnect.to/ltcastelnuovo',
 };
 
 export default Redirects;
