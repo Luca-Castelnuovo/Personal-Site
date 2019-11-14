@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+// Import Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set brand style
+$family-sans-serif: 'Nunito', sans-serif;
+$primary-color: #358600;
+$secundary-color: #008ada;
+$background-color: #fff;
+
+// Update Bulma's globals
+$primary: $primary-color;
+$link: $secundary-color;
+$widescreen-enabled: false;
+$section-padding: 1.5rem;
+
+// Update Bulma's components
+$body-background-color: $background-color;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$navbar-item-active-background-color: #fafafa;
+
+// Import required Bulma files
+@import '~bulma/bulma.sass';
+
+.button.is-social {
+    color: #fff;
+
+    &.instagram {
+        background-color: #1da1f2;
+        border-color: #1da1f2;
+    }
+    &.linkedin {
+        background-color: #0077b5;
+        border-color: #0077b5;
+    }
+    &.github {
+        background-color: #333;
+        border-color: #333;
+    }
+}

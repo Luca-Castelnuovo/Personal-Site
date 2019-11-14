@@ -1,27 +1,24 @@
 import React from 'react';
-// import Button from 'Components/Button';
-import ProfilePicture from 'Components/ProfilePicture';
-import Title from 'Components/Title';
-import SubTitle from 'Components/Subtitle';
-import SocialIcons from 'Components/SocialIcons';
+import withBaseRoute from 'Utils/withBaseRoute';
+import NavBar from 'Components/NavBar';
+import Hero from 'Components/Hero';
+import Projects from 'Components/Projects';
+import Social from 'Components/Social';
+import Contact from 'Components/Contact';
+import AboutMe from 'Components/AboutMe';
 
 const Home = () => {
     return (
         <>
-            <section>
-                <ProfilePicture />
-                <Title>Luca Castelnuovo</Title>
-                <SubTitle>Web Developer & Ethical Hacker</SubTitle>
-            </section>
-            {/* <section>
-                <Button src="/projects">Projects</Button>
-                <Button src="/redirect/cv">CV</Button>
-            </section> */}
-            <section>
-                <SocialIcons />
-            </section>
+            <NavBar />
+            {/* <Hero /> */}
+            <Projects />
+            <AboutMe />
+            <Contact />
+            <h5 className="is-size-5 has-text-centered">Or</h5>
+            <Social />
         </>
     );
 };
 
-export default Home;
+export default withBaseRoute(Home);

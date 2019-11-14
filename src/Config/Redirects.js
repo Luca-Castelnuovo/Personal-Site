@@ -1,13 +1,14 @@
 const Redirects = {
     cv: 'https://lucacastelnuovo.nl/pdf/cv.pdf',
     github: 'https://github.com/Luca-Castelnuovo',
-    hacklab: 'https://lucacastelnuovo.nl/pdf/hacklab.pdf',
     linkedin: 'https://www.linkedin.com/in/ltcastelnuovo',
-    mail: 'mailto:ltcastelnuovo@gmail.com',
+    instagram: 'https://instagram.com/ltcastelnuovo',
+    comment: '---',
+    twitter: 'https://twitter.com/LucaCastelnuovo',
+    hacklab: 'https://lucacastelnuovo.nl/pdf/hacklab.pdf',
     pgp: 'https://lucacastelnuovo.nl/keys/pgp.pdf',
     ssh: 'https://lucacastelnuovo.nl/keys/ssh.pdf',
-    twitter: 'https://twitter.com/LucaCastelnuovo',
-    nas: 'https://quickconnect.to/ltcastelnuovo',
+    nas: 'https://quickconnect.to/ltcastelnuovo'
 };
 
 export default Redirects;
