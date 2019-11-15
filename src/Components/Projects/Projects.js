@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Project from './Project';
-import ProjectsConfig from 'Config/Projects';
+import ProjectsConfig from 'config/Projects';
 
 const Projects = () => {
     return (

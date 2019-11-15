@@ -1,7 +1,7 @@
-import Home from 'Routes/Home';
-import Projects from 'Routes/Projects';
-import Redirect from 'Routes/Redirect';
-import NotFound from 'Routes/NotFound';
+import Home from 'routes/Home';
+import Projects from 'routes/Projects';
+import Redirect from 'routes/Redirect';
+import NotFound from 'routes/NotFound';
 
 const Routes = [
     {

@@ -1,8 +1,8 @@
 import React from 'react';
-import withBaseRoute from 'Utils/withBaseRoute';
+import withBaseRoute from 'utils/withBaseRoute';
 import { Link } from 'react-router-dom';
-import Project from 'Components/Projects/Project';
-import ProjectsConfig from 'Config/Projects';
+import Project from 'components/Projects/Project';
+import ProjectsConfig from 'config/Projects';
 
 const Projects = () => {
     return (
@@ -23,7 +23,7 @@ const Projects = () => {
             </section>
             <section className="section">
                 <div className="container has-text-centered is-fullhd box">
-                    <div className="columns">
+                    <div className="columns is-multiline">
                         {ProjectsConfig.map(project => {
                             return <Project {...project} />;
                         })}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import profile from 'assets/profile.jpg';
 
 const AboutMe = () => {
     return (
@@ -15,7 +16,7 @@ const AboutMe = () => {
                             >
                                 <img
                                     className="is-rounded"
-                                    src="https://lucacastelnuovo.nl/static/media/profile.c08cbefd.jpg"
+                                    src={profile}
                                     alt="Avatar"
                                 />
                             </figure>

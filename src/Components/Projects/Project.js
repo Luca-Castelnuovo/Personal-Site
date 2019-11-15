@@ -9,7 +9,7 @@ const Project = ({
     demo_link
 }) => {
     return (
-        <div className="column">
+        <div className="column is-one-quarter">
             <div className="card">
                 <div className="card-image">
                     <figure className="image is-4by3">
@@ -23,7 +23,11 @@ const Project = ({
                         <div className="content">
                             <div className="tags are-medium">
                                 {tags.map(tag => {
-                                    return <span className="tag">{tag}</span>;
+                                    return (
+                                        <span key={tag} className="tag">
+                                            {tag}
+                                        </span>
+                                    );
                                 })}
                             </div>
                         </div>

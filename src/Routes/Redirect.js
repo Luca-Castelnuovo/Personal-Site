@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Redirect } from 'react-router-dom';
-import Redirects from 'Config/Redirects';
+import Redirects from 'config/Redirects';
 
 const RedirectRoute = ({ match }) => {
     const [redirecting, setRedirecting] = useState(false);

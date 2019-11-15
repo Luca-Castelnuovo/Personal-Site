@@ -1,41 +1,82 @@
+import andAannemersbedrijf from 'assets/images/and-aannemersbedrijf.png';
+import bvhBouwEnTimmerwerken from 'assets/images/bvh-bouwentimmerwerken.png';
+import hblLustrum from 'assets/images/hbl-lustrum.png';
+import hblKerstmarkt from 'assets/images/hbl-kerstmarkt.png';
+import hblBetaSterren from 'assets/images/hbl-betasterren.png';
+import centrumInternationaleKinderontvoering from 'assets/images/ciko.png';
+import hetHakHout from 'assets/images/hethakhout.png';
+import wiskundeSite from 'assets/images/wiskundesite.png';
+import broodtNuBackend from 'assets/images/broodtnu.png';
+
 const Projects = [
     {
-        title: 'Demo Project',
-        image:
-            'https://images.unsplash.com/photo-1573693911311-2b3042227305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80',
-        description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.',
-        tags: ['React', 'Google', 'Netlify'],
-        github_link: 'https://github.com',
-        demo_link: 'https://example.com'
+        title: 'A.N.D. Aannemersbedrijf',
+        image: andAannemersbedrijf,
+        description: 'Description',
+        tags: ['tag1', 'tag2'],
+        github_link:
+            'https://github.com/Luca-Castelnuovo/A.N.D.-Aannemersbedrijf',
+        demo_link: 'http://and-aannemersbedrijf.nl/'
     },
     {
-        title: 'Demo Project',
-        image:
-            'https://images.unsplash.com/photo-1573693911311-2b3042227305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80',
-        description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.',
-        tags: ['React', 'Google', 'Netlify'],
-        github_link: 'https://github.com',
-        demo_link: 'https://example.com'
+        title: 'BVH Bouw en Timmerwerken',
+        image: bvhBouwEnTimmerwerken,
+        description: 'Description',
+        tags: ['tag1', 'tag2'],
+        github_link:
+            'https://github.com/Luca-Castelnuovo/BVH-Bouw-en-Timmerwerken',
+        demo_link: 'https://bvhbouwentimmerwerken.nl/'
     },
     {
-        title: 'Demo Project',
-        image:
-            'https://images.unsplash.com/photo-1573693911311-2b3042227305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80',
-        description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.',
-        tags: ['React', 'Google', 'Netlify'],
-        github_link: 'https://github.com'
+        title: 'HBL: Kerstmarkt',
+        image: hblKerstmarkt,
+        description: 'Description',
+        tags: ['tag1', 'tag2']
     },
     {
-        title: 'Demo Project',
-        image:
-            'https://images.unsplash.com/photo-1573693911311-2b3042227305?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80',
-        description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.',
-        tags: ['React', 'Google', 'Netlify'],
-        demo_link: 'https://example.com'
+        title: 'HBL: Lustrum',
+        image: hblLustrum,
+        description: 'Description',
+        tags: ['tag1', 'tag2']
+    },
+    {
+        title: 'HBL: BetaSterren',
+        image: hblBetaSterren,
+        description: 'Description',
+        tags: ['tag1', 'tag2'],
+        github_link: 'https://github.com/Luca-Castelnuovo/BetaPlus',
+        demo_link: 'https://betasterren.hetbaarnschlyceum.nl'
+    },
+    {
+        title: 'Centrum Internationale Kinderontvoering',
+        image: centrumInternationaleKinderontvoering,
+        description: 'Description',
+        tags: ['tag1', 'tag2'],
+        demo_link:
+            'https://www.kinderontvoering.org/uploads/stappenplan/index.html'
+    },
+    {
+        title: 'Het Hak Hout',
+        image: hetHakHout,
+        description: 'Description',
+        tags: ['tag1', 'tag2'],
+        github_link: 'https://github.com/Luca-Castelnuovo/Het-Hak-Hout',
+        demo_link: 'https://hethakhout.nl'
+    },
+    {
+        title: 'WiskundeSite',
+        image: wiskundeSite,
+        description: 'Description',
+        tags: ['tag1', 'tag2'],
+        github_link: 'https://github.com/Luca-Castelnuovo/WiskundeSite',
+        demo_link: 'https://api.wiskundesite.ml'
+    },
+    {
+        title: 'BroodtNu Backend',
+        image: broodtNuBackend,
+        description: 'Description',
+        tags: ['tag1', 'tag2'],
+        github_link: 'https://github.com/broodt-nu/backend'
     }
 ];
 
