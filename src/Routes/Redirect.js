@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Redirect } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import Redirects from 'config/Redirects';
 
 const RedirectRoute = ({ match }) => {
@@ -20,6 +21,10 @@ const RedirectRoute = ({ match }) => {
             <h1>Redirecting...</h1>
         </>
     );
+};
+
+RedirectRoute.propTypes = {
+    match: PropTypes.object.isRequired
 };
 
 export default RedirectRoute;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Project = ({
     title,
@@ -64,6 +65,15 @@ const Project = ({
             </div>
         </div>
     );
+};
+
+Project.propTypes = {
+    title: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    tags: PropTypes.array.isRequired,
+    github_link: PropTypes.string,
+    demo_link: PropTypes.string
 };
 
 export default Project;

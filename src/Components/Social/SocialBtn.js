@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const SocialBtn = ({ type, children }) => {
     return (
@@ -10,6 +11,11 @@ const SocialBtn = ({ type, children }) => {
             <span>{children}</span>
         </Link>
     );
+};
+
+SocialBtn.propTypes = {
+    type: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired
 };
 
 export default SocialBtn;
