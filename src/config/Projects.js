@@ -18,12 +18,36 @@ const Projects = [
         demo_link: 'https://hethakhout.nl'
     },
     {
+        title: 'Urinaltractinfection-AI',
+        image: null,
+        description: 'Description',
+        tags: ['TensorFlow', 'Python'],
+        github_link:
+            'https://github.com/Luca-Castelnuovo/Urinaltractinfection-Medicineprediction-AI'
+    },
+    {
         title: 'WiskundeSite',
         image: wiskundeSite,
         description: 'Description',
         tags: ['PHP', 'LUMEN'],
         github_link: 'https://github.com/Luca-Castelnuovo/WiskundeSite',
         demo_link: 'https://api.wiskundesite.ml'
+    },
+    {
+        title: 'TechAssistants Soest',
+        image: null,
+        description: 'Description',
+        tags: ['MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        github_link: 'https://github.com/Luca-Castelnuovo/TA-Soest',
+        demo_link: 'https://ta-soest.nl/'
+    },
+    {
+        title: 'TechAssistants Nuth',
+        image: null,
+        description: 'Description',
+        tags: ['MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        github_link: 'https://github.com/Luca-Castelnuovo/TA-Nuth',
+        demo_link: 'https://ta-nuth.nl/'
     },
     {
         title: 'BVH Bouw en Timmerwerken',
@@ -56,6 +80,51 @@ const Projects = [
         tags: ['HTML', 'CSS', 'JS'],
         demo_link:
             'https://www.kinderontvoering.org/uploads/stappenplan/index.html'
+    },
+
+    {
+        title: 'TestingPlatform',
+        image: null,
+        description: 'Description',
+        tags: ['PHP', 'DATABSE', 'MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        github_link: 'https://github.com/Luca-Castelnuovo/TestingPlatform',
+        demo_link: 'https://test.lucacastelnuovo.nl/'
+    },
+    {
+        title: 'InstaKilo',
+        image: null,
+        description: 'Description',
+        tags: ['PHP', 'DATABSE', 'MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        github_link: 'https://github.com/Luca-Castelnuovo/InstaKilo'
+    },
+    {
+        title: 'Accounts OAUTH',
+        image: null,
+        description: 'Description',
+        tags: ['PHP', 'DATABSE', 'MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        github_link: 'https://github.com/Luca-Castelnuovo/Accounts'
+    },
+    {
+        title: 'Share Secrets',
+        image: null,
+        description: 'Description',
+        tags: ['PHP', 'DATABSE', 'MaterializeCSS'],
+        github_link: 'https://github.com/Luca-Castelnuovo/Share'
+    },
+    {
+        title: 'API',
+        image: broodtNuBackend,
+        description: 'Description',
+        tags: ['PHP', 'DATABSE'],
+        github_link: 'https://github.com/Luca-Castelnuovo/API'
+    },
+    {
+        title: 'Deploy',
+        image: null,
+        description: 'Description',
+        tags: ['PHP', 'DATABSE'],
+        github_link: 'https://github.com/Luca-Castelnuovo/Deploy',
+        demo_link: 'https://deploy.lucacastelnuovo.nl/'
     },
     {
         title: 'BroodtNu Backend',
