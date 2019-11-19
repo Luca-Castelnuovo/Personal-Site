@@ -13,7 +13,7 @@ const Projects = [
         title: 'Het Hak Hout',
         image: hetHakHout,
         description: 'Description',
-        tags: ['REACT', 'HTML', 'SASS'],
+        tags: ['React', 'Bulma'],
         github_link: 'https://github.com/Luca-Castelnuovo/Het-Hak-Hout',
         demo_link: 'https://hethakhout.nl'
     },
@@ -21,7 +21,7 @@ const Projects = [
         title: 'Urinaltractinfection-AI',
         image: null,
         description: 'Description',
-        tags: ['TensorFlow', 'Python'],
+        tags: ['Python', 'TensorFlow'],
         github_link:
             'https://github.com/Luca-Castelnuovo/Urinaltractinfection-Medicineprediction-AI'
     },
@@ -29,7 +29,7 @@ const Projects = [
         title: 'WiskundeSite',
         image: wiskundeSite,
         description: 'Description',
-        tags: ['PHP', 'LUMEN'],
+        tags: ['PHP', 'Lumen'],
         github_link: 'https://github.com/Luca-Castelnuovo/WiskundeSite',
         demo_link: 'https://api.wiskundesite.ml'
     },
@@ -37,7 +37,7 @@ const Projects = [
         title: 'TechAssistants Soest',
         image: null,
         description: 'Description',
-        tags: ['MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        tags: ['JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/TA-Soest',
         demo_link: 'https://ta-soest.nl/'
     },
@@ -45,7 +45,7 @@ const Projects = [
         title: 'TechAssistants Nuth',
         image: null,
         description: 'Description',
-        tags: ['MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        tags: ['JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/TA-Nuth',
         demo_link: 'https://ta-nuth.nl/'
     },
@@ -53,7 +53,7 @@ const Projects = [
         title: 'BVH Bouw en Timmerwerken',
         image: bvhBouwEnTimmerwerken,
         description: 'Description',
-        tags: ['MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        tags: ['JS', 'MaterializeCSS'],
         github_link:
             'https://github.com/Luca-Castelnuovo/BVH-Bouw-en-Timmerwerken',
         demo_link: 'https://bvhbouwentimmerwerken.nl/'
@@ -62,14 +62,7 @@ const Projects = [
         title: 'HBL: BetaSterren',
         image: hblBetaSterren,
         description: 'Description',
-        tags: [
-            'PHP',
-            'DATABASE',
-            'AUTHENTICATION',
-            'MaterializeCSS',
-            'HTML',
-            'SASS'
-        ],
+        tags: ['PHP', 'JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/BetaPlus',
         demo_link: 'https://betasterren.hetbaarnschlyceum.nl'
     },
@@ -86,7 +79,7 @@ const Projects = [
         title: 'TestingPlatform',
         image: null,
         description: 'Description',
-        tags: ['PHP', 'DATABSE', 'MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        tags: ['PHP', 'JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/TestingPlatform',
         demo_link: 'https://test.lucacastelnuovo.nl/'
     },
@@ -94,35 +87,35 @@ const Projects = [
         title: 'InstaKilo',
         image: null,
         description: 'Description',
-        tags: ['PHP', 'DATABSE', 'MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        tags: ['PHP', 'JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/InstaKilo'
     },
     {
         title: 'Accounts OAUTH',
         image: null,
         description: 'Description',
-        tags: ['PHP', 'DATABSE', 'MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        tags: ['PHP', 'JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/Accounts'
     },
     {
         title: 'Share Secrets',
         image: null,
         description: 'Description',
-        tags: ['PHP', 'DATABSE', 'MaterializeCSS'],
+        tags: ['PHP', 'JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/Share'
     },
     {
         title: 'API',
         image: broodtNuBackend,
         description: 'Description',
-        tags: ['PHP', 'DATABSE'],
+        tags: ['PHP'],
         github_link: 'https://github.com/Luca-Castelnuovo/API'
     },
     {
         title: 'Deploy',
         image: null,
         description: 'Description',
-        tags: ['PHP', 'DATABSE'],
+        tags: ['PHP', 'git-auto-deploy'],
         github_link: 'https://github.com/Luca-Castelnuovo/Deploy',
         demo_link: 'https://deploy.lucacastelnuovo.nl/'
     },
@@ -137,7 +130,7 @@ const Projects = [
         title: 'A.N.D. Aannemersbedrijf',
         image: andAannemersbedrijf,
         description: 'Description',
-        tags: ['MaterializeCSS', 'HTML', 'CSS', 'JS'],
+        tags: ['JS', 'Bootstrap'],
         github_link:
             'https://github.com/Luca-Castelnuovo/A.N.D.-Aannemersbedrijf',
         demo_link: 'http://and-aannemersbedrijf.nl/'
