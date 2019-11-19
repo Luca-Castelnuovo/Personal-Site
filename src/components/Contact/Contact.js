@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import useForm from 'react-hook-form';
 import classnames from 'classnames';
 
@@ -6,6 +6,7 @@ import ContactInput from './ContactInput';
 import ContactText from './ContactText';
 
 const Contact = () => {
+    const [isSubmitted, setSubmitted] = useState(false);
     const { register, handleSubmit, errors, formState } = useForm({
         mode: 'onBlur'
     });
@@ -19,7 +20,7 @@ const Contact = () => {
             template_params: data
         };
 
-        fetch(url, {
+        await fetch(url, {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
@@ -27,10 +28,10 @@ const Contact = () => {
             body: JSON.stringify(payload)
         })
             .then(data => {
-                console.log('Request success: ', data);
+                setSubmitted(true);
             })
             .catch(error => {
-                console.log('Oops... ' + error);
+                console.error('Error: ' + error);
             });
     };
 
@@ -44,7 +45,7 @@ const Contact = () => {
                 <h1 className="title has-text-centered">Contact Me</h1>
                 <div className="columns is-centered">
                     <div className="column is-half">
-                        {formState.isSubmitted && (
+                        {isSubmitted && (
                             <div className="notification is-primary has-text-centered">
                                 <h1 className="title">
                                     Message sent succesfully!
@@ -52,7 +53,7 @@ const Contact = () => {
                             </div>
                         )}
 
-                        {!formState.isSubmitted && (
+                        {!isSubmitted && (
                             <form
                                 onSubmit={handleSubmit(onSubmit)}
                                 className="form"
