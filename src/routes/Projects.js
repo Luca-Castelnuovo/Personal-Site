@@ -1,5 +1,4 @@
 import React from 'react';
-import withBaseRoute from 'utils/withBaseRoute';
 import { Link } from 'react-router-dom';
 import Project from 'components/Projects/Project';
 import ProjectsConfig from 'config/Projects';
@@ -34,4 +33,4 @@ const Projects = () => {
     );
 };
 
-export default withBaseRoute(Projects);
+export default Projects;

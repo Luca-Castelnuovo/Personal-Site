@@ -1,5 +1,4 @@
 import React from 'react';
-import withBaseRoute from 'utils/withBaseRoute';
 import Hero from 'components/Hero';
 import Projects from 'components/Projects';
 import Social from 'components/Social';
@@ -21,4 +20,4 @@ const Home = () => {
     );
 };
 
-export default withBaseRoute(Home);
+export default Home;
