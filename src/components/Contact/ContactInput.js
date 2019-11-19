@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ContactInput = ({ title, register, settings, error }) => {
     return (
@@ -22,6 +23,13 @@ const ContactInput = ({ title, register, settings, error }) => {
             {error && <p className="help is-danger">{error.message}</p>}
         </div>
     );
+};
+
+ContactInput.propTypes = {
+    title: PropTypes.string.isRequired,
+    register: PropTypes.any.isRequired,
+    settings: PropTypes.object.isRequired,
+    error: PropTypes.object
 };
 
 export default ContactInput;

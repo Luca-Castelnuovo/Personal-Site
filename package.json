@@ -1,12 +1,11 @@
 {
-    "name": "het_hak_hout",
+    "name": "portfolio",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
         "aos": "^2.3.4",
         "bulma": "^0.7.5",
         "classnames": "^2.2.6",
-        "netlify-lambda": "^1.6.3",
         "node-sass": "^4.12.0",
         "prop-types": "^15.7.2",
         "react": "^16.10.2",
@@ -30,8 +29,7 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "test": "react-scripts test",
-        "postinstall": "netlify-lambda install"
+        "test": "react-scripts test"
     },
     "husky": {
         "hooks": {

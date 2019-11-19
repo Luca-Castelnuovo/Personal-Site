@@ -1,20 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-const SocialBtn = ({ type, children }) => {
+const SocialBtn = ({ type, to, children }) => {
     return (
-        <Link to={`/redirect/${type}`} className={`button is-medium`}>
+        <a
+            href={to}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`button is-medium`}
+        >
             <span className="icon">
                 <i className={`fab fa-${type}`}></i>
             </span>
             <span>{children}</span>
-        </Link>
+        </a>
     );
 };
 
 SocialBtn.propTypes = {
     type: PropTypes.string.isRequired,
+    to: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired
 };
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import profile from 'assets/profile.jpg';
 
 const AboutMe = () => {
@@ -31,15 +30,17 @@ const AboutMe = () => {
                                 development.
                             </p>
 
-                            <Link
-                                to="/redirect/cv"
+                            <a
+                                href="https://lucacastelnuovo.nl/pdf/cv.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="button is-medium"
                             >
                                 <span className="icon">
                                     <i className="fas fa-file-pdf"></i>
                                 </span>
                                 <span>Resume</span>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </article>
