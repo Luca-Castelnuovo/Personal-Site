@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "aos": "^2.3.4",
         "bulma": "^0.7.5",
         "classnames": "^2.2.6",
         "netlify-lambda": "^1.6.3",

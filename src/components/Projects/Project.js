@@ -10,7 +10,7 @@ const Project = ({
     demo_link
 }) => {
     return (
-        <div className="column is-one-quarter">
+        <div data-aos="zoom-in-left" className="column is-one-quarter">
             <div className="card">
                 <div className="card-image">
                     <figure className="image is-4by3">

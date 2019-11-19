@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import useForm from 'react-hook-form';
 import classnames from 'classnames';
+import EmailJS from 'config/EmailJS';
 
 import ContactInput from './ContactInput';
 import ContactText from './ContactText';
@@ -13,19 +14,15 @@ const Contact = () => {
 
     const onSubmit = async data => {
         const url = 'https://api.emailjs.com/api/v1.0/email/send';
-        const payload = {
-            user_id: 'user_DOxZrk2OBIK8rsQIuL85c',
-            service_id: 'sendgrid',
-            template_id: 'contact',
-            template_params: data
-        };
-
         await fetch(url, {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'
             },
-            body: JSON.stringify(payload)
+            body: JSON.stringify({
+                ...EmailJS,
+                template_params: data
+            })
         })
             .then(data => {
                 setSubmitted(true);
@@ -41,8 +38,16 @@ const Contact = () => {
 
     return (
         <section className="section">
-            <div className="container box">
-                <h1 className="title has-text-centered">Contact Me</h1>
+            <div
+                data-aos="fade-up"
+                className="container box aos-init aos-animate"
+            >
+                <h1
+                    data-aos="zoom-in"
+                    className="title has-text-centered aos-init aos-animate"
+                >
+                    Contact Me
+                </h1>
                 <div className="columns is-centered">
                     <div className="column is-half">
                         {isSubmitted && (

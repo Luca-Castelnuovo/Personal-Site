@@ -1,12 +1,20 @@
-import andAannemersbedrijf from 'assets/images/and-aannemersbedrijf.png';
+import hetHakHout from 'assets/images/hethakhout.png';
+// urinal
+import wiskundeSite from 'assets/images/wiskundesite.png';
+// tas
+// tan
 import bvhBouwEnTimmerwerken from 'assets/images/bvh-bouwentimmerwerken.png';
-import hblLustrum from 'assets/images/hbl-lustrum.png';
-import hblKerstmarkt from 'assets/images/hbl-kerstmarkt.png';
 import hblBetaSterren from 'assets/images/hbl-betasterren.png';
 import centrumInternationaleKinderontvoering from 'assets/images/ciko.png';
-import hetHakHout from 'assets/images/hethakhout.png';
-import wiskundeSite from 'assets/images/wiskundesite.png';
+// test
+// instakilo
+// accounts
+// share
 import broodtNuBackend from 'assets/images/broodtnu.png';
+// deploy
+import andAannemersbedrijf from 'assets/images/and-aannemersbedrijf.png';
+import hblKerstmarkt from 'assets/images/hbl-kerstmarkt.png';
+import hblLustrum from 'assets/images/hbl-lustrum.png';
 
 const Projects = [
     {
@@ -74,7 +82,6 @@ const Projects = [
         demo_link:
             'https://www.kinderontvoering.org/uploads/stappenplan/index.html'
     },
-
     {
         title: 'TestingPlatform',
         image: null,

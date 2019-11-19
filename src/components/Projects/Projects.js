@@ -8,8 +8,16 @@ const Projects = () => {
         <section className="section">
             <div className="container is-fullhd box">
                 <div className="columns">
-                    <div className="column">
-                        <h1 className="title">Projects</h1>
+                    <div
+                        data-aos="fade-up"
+                        className="column aos-init aos-animate"
+                    >
+                        <h1
+                            data-aos="zoom-in"
+                            className="title aos-init aos-animate"
+                        >
+                            Projects
+                        </h1>
                         <p className="content">
                             I have worked on several personal and professional
                             projects including this portfolio. Here are a few
@@ -24,7 +32,7 @@ const Projects = () => {
                     </div>
 
                     {ProjectsConfig.slice(0, 3).map(project => {
-                        return <Project {...project} />;
+                        return <Project key={project.title} {...project} />;
                     })}
                 </div>
             </div>

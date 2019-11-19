@@ -25,7 +25,7 @@ const Projects = () => {
                 <div className="container has-text-centered is-fullhd box">
                     <div className="columns is-multiline">
                         {ProjectsConfig.map(project => {
-                            return <Project {...project} />;
+                            return <Project key={project.title} {...project} />;
                         })}
                     </div>
                 </div>

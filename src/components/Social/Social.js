@@ -4,7 +4,10 @@ import SocialBtn from './SocialBtn';
 const Social = () => {
     return (
         <section className="section has-text-centered ">
-            <div className="container box">
+            <div
+                data-aos="fade-up"
+                className="container box aos-init aos-animate"
+            >
                 <div className="buttons is-centered">
                     <SocialBtn type="github">GitHub</SocialBtn>
                     <SocialBtn type="linkedin">LinkedIn</SocialBtn>
