@@ -5,17 +5,11 @@ import profile from 'assets/profile.jpg';
 const AboutMe = () => {
     return (
         <section className="section has-text-centered">
-            <div
-                data-aos="fade-up"
-                className="container box aos-init aos-animate"
-            >
+            <div data-aos="fade-up" className="container box">
                 <article className="media">
                     <div className="media-content">
                         <div className="content has-text-centered">
-                            <h1
-                                data-aos="zoom-in"
-                                className="title aos-init aos-animate"
-                            >
+                            <h1 data-aos="zoom-in" className="title">
                                 About Me
                             </h1>
                             <figure

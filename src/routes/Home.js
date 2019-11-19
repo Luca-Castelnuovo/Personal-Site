@@ -13,10 +13,7 @@ const Home = () => {
             <Projects />
             <AboutMe />
             <Contact />
-            <h5
-                data-aos="fade-down"
-                className="is-size-5 has-text-centered aos-init aos-animate"
-            >
+            <h5 data-aos="fade-down" className="is-size-5 has-text-centered">
                 Or
             </h5>
             <Social />

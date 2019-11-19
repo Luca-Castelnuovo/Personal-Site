@@ -1,17 +1,19 @@
-import hetHakHout from 'assets/images/hethakhout.png';
-// urinal
-import wiskundeSite from 'assets/images/wiskundesite.png';
-// tas
-// tan
-import bvhBouwEnTimmerwerken from 'assets/images/bvh-bouwentimmerwerken.png';
-import hblBetaSterren from 'assets/images/hbl-betasterren.png';
-import centrumInternationaleKinderontvoering from 'assets/images/ciko.png';
-// test
-// instakilo
-// accounts
-// share
-import broodtNuBackend from 'assets/images/broodtnu.png';
-// deploy
+import hetHakHout from 'assets/images/hetHakHout.png';
+import urinalTractinfectionAI from 'assets/images/urinalTractinfectionAI.png';
+import wiskundeSite from 'assets/images/wiskundeSite.png';
+import techAssistantsSoest from 'assets/images/techAssistantsSoest.png';
+import techAssistantsNuth from 'assets/images/techAssistantsNuth.png';
+import bvhBouwEnTimmerwerken from 'assets/images/bvhBouwEnTimmerwerken.png';
+import hblBetaSterren from 'assets/images/hblBetaSterren.png';
+import centrumInternationaleKinderontvoering from 'assets/images/centrumInternationaleKinderontvoering.png';
+import testingPlatform from 'assets/images/testingPlatform.png';
+import files from 'assets/images/files.png';
+import instakilo from 'assets/images/NULL.png';
+import accounts from 'assets/images/accounts.png';
+import share from 'assets/images/NULL.png';
+import api from 'assets/images/NULL.png';
+import broodtNu from 'assets/images/broodtnu.png';
+import deploy from 'assets/images/deploy.png';
 import andAannemersbedrijf from 'assets/images/and-aannemersbedrijf.png';
 import hblKerstmarkt from 'assets/images/hbl-kerstmarkt.png';
 import hblLustrum from 'assets/images/hbl-lustrum.png';
@@ -27,7 +29,7 @@ const Projects = [
     },
     {
         title: 'Urinaltractinfection-AI',
-        image: null,
+        image: urinalTractinfectionAI,
         description: 'Description',
         tags: ['Python', 'TensorFlow'],
         github_link:
@@ -43,7 +45,7 @@ const Projects = [
     },
     {
         title: 'TechAssistants Soest',
-        image: null,
+        image: techAssistantsSoest,
         description: 'Description',
         tags: ['JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/TA-Soest',
@@ -51,7 +53,7 @@ const Projects = [
     },
     {
         title: 'TechAssistants Nuth',
-        image: null,
+        image: techAssistantsNuth,
         description: 'Description',
         tags: ['JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/TA-Nuth',
@@ -84,43 +86,51 @@ const Projects = [
     },
     {
         title: 'TestingPlatform',
-        image: null,
+        image: testingPlatform,
         description: 'Description',
         tags: ['PHP', 'JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/TestingPlatform',
         demo_link: 'https://test.lucacastelnuovo.nl/'
     },
     {
+        title: 'Files Manager',
+        image: files,
+        description: 'Description',
+        tags: ['PHP', 'JS', 'MaterializeCSS'],
+        github_link: 'https://github.com/Luca-Castelnuovo/FileStorage',
+        demo_link: 'https://files.lucacastelnuovo.nl/'
+    },
+    {
         title: 'InstaKilo',
-        image: null,
+        image: instakilo,
         description: 'Description',
         tags: ['PHP', 'JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/InstaKilo'
     },
     {
         title: 'Accounts OAUTH',
-        image: null,
+        image: accounts,
         description: 'Description',
         tags: ['PHP', 'JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/Accounts'
     },
     {
         title: 'Share Secrets',
-        image: null,
+        image: share,
         description: 'Description',
         tags: ['PHP', 'JS', 'MaterializeCSS'],
         github_link: 'https://github.com/Luca-Castelnuovo/Share'
     },
     {
         title: 'API',
-        image: broodtNuBackend,
+        image: api,
         description: 'Description',
         tags: ['PHP'],
         github_link: 'https://github.com/Luca-Castelnuovo/API'
     },
     {
         title: 'Deploy',
-        image: null,
+        image: deploy,
         description: 'Description',
         tags: ['PHP', 'git-auto-deploy'],
         github_link: 'https://github.com/Luca-Castelnuovo/Deploy',
@@ -128,7 +138,7 @@ const Projects = [
     },
     {
         title: 'BroodtNu Backend',
-        image: broodtNuBackend,
+        image: broodtNu,
         description: 'Description',
         tags: ['PHP', 'LUMEN'],
         github_link: 'https://github.com/broodt-nu/backend'

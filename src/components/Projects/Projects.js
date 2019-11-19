@@ -8,14 +8,8 @@ const Projects = () => {
         <section className="section">
             <div className="container is-fullhd box">
                 <div className="columns">
-                    <div
-                        data-aos="fade-up"
-                        className="column aos-init aos-animate"
-                    >
-                        <h1
-                            data-aos="zoom-in"
-                            className="title aos-init aos-animate"
-                        >
+                    <div data-aos="fade-up" className="column">
+                        <h1 data-aos="zoom-in" className="title">
                             Projects
                         </h1>
                         <p className="content">

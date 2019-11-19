@@ -38,14 +38,8 @@ const Contact = () => {
 
     return (
         <section className="section">
-            <div
-                data-aos="fade-up"
-                className="container box aos-init aos-animate"
-            >
-                <h1
-                    data-aos="zoom-in"
-                    className="title has-text-centered aos-init aos-animate"
-                >
+            <div data-aos="fade-up" className="container box">
+                <h1 data-aos="zoom-in" className="title has-text-centered">
                     Contact Me
                 </h1>
                 <div className="columns is-centered">
