@@ -8,19 +8,19 @@ const Social = () => {
                 <div className="buttons is-centered">
                     <SocialBtn
                         type="github"
-                        to="https://github.com/Luca-Castelnuovo"
+                        to="https://castelnuovo.xyz/github"
                     >
                         GitHub
                     </SocialBtn>
                     <SocialBtn
                         type="linkedin"
-                        to="https://www.linkedin.com/in/ltcastelnuovo"
+                        to="https://castelnuovo.xyz/linkedin"
                     >
                         LinkedIn
                     </SocialBtn>
                     <SocialBtn
                         type="instagram"
-                        to="https://instagram.com/ltcastelnuovo"
+                        to="https://castelnuovo.xyz/instagram"
                     >
                         Instagram
                     </SocialBtn>
