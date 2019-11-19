@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from 'routes/Home';
 import Projects from 'routes/Projects';
@@ -21,15 +21,11 @@ const App = () => {
 
     return (
         <Router>
-            <Route path="/" exact>
-                <Home />
-            </Route>
-            <Route path="/projects">
-                <Projects />
-            </Route>
-            <Route path="">
-                <NotFound />
-            </Route>
+            <Switch>
+                <Route path="/" exact component={Home} />
+                <Route path="/projects" component={Projects} />
+                <Route component={NotFound} />
+            </Switch>
         </Router>
     );
 };
