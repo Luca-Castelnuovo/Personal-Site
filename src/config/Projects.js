@@ -14,9 +14,10 @@ import share from 'assets/images/NULL.png';
 import api from 'assets/images/NULL.png';
 import broodtNu from 'assets/images/broodtnu.png';
 import deploy from 'assets/images/deploy.png';
-import andAannemersbedrijf from 'assets/images/and-aannemersbedrijf.png';
-import hblKerstmarkt from 'assets/images/hbl-kerstmarkt.png';
-import hblLustrum from 'assets/images/hbl-lustrum.png';
+import andAannemersbedrijf from 'assets/images/andAannemersbedrijf.png';
+import hblKerstmarkt from 'assets/images/hblKerstmarkt.png';
+import hblLustrum from 'assets/images/hblLustrum.png';
+import github from 'assets/images/github.png';
 
 const Projects = [
     {
@@ -163,6 +164,13 @@ const Projects = [
         image: hblLustrum,
         description: 'Description',
         tags: ['PHP', 'WordPress']
+    },
+    {
+        title: 'View More',
+        image: github,
+        description: 'View all of my other projects GitHub.',
+        tags: ['GitHub'],
+        github_link: 'https://github.com/Luca-Castelnuovo?tab=repositories'
     }
 ];
 
