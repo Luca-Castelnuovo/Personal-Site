@@ -4,9 +4,12 @@ import PropTypes from 'prop-types';
 const ContactText = ({ title, register, settings, error }) => {
     return (
         <div className="field">
-            <label className="label  is-medium">{title}</label>
+            <label className="label is-medium" for={title}>
+                {title}
+            </label>
             <div className="control has-icons-right">
                 <textarea
+                    id={title}
                     name={title}
                     placeholder={title}
                     ref={register(settings)}
@@ -29,6 +32,10 @@ ContactText.propTypes = {
     register: PropTypes.any.isRequired,
     settings: PropTypes.object.isRequired,
     error: PropTypes.object
+};
+
+ContactText.defaultProps = {
+    error: null
 };
 
 export default ContactText;

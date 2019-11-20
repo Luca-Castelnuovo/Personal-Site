@@ -4,9 +4,12 @@ import PropTypes from 'prop-types';
 const ContactInput = ({ title, register, settings, error }) => {
     return (
         <div className="field">
-            <label className="label is-medium">{title}</label>
+            <label className="label is-medium" for={title}>
+                {title}
+            </label>
             <div className="control has-icons-right">
                 <input
+                    id={title}
                     type="text"
                     name={title}
                     placeholder={title}
@@ -30,6 +33,10 @@ ContactInput.propTypes = {
     register: PropTypes.any.isRequired,
     settings: PropTypes.object.isRequired,
     error: PropTypes.object
+};
+
+ContactInput.defaultProps = {
+    error: null
 };
 
 export default ContactInput;
