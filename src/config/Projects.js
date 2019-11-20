@@ -15,8 +15,8 @@ import api from 'assets/images/NULL.png';
 import broodtNu from 'assets/images/broodtnu.png';
 import deploy from 'assets/images/deploy.png';
 import andAannemersbedrijf from 'assets/images/andAannemersbedrijf.png';
-import hblKerstmarkt from 'assets/images/hblKerstmarkt.png';
-import hblLustrum from 'assets/images/hblLustrum.png';
+import hblKerstmarkt from 'assets/images/hbl.png';
+import hblLustrum from 'assets/images/hbl.png';
 import github from 'assets/images/github.png';
 
 const Projects = [
