@@ -42,7 +42,7 @@ const Projects = [
         description: 'Description',
         tags: ['PHP', 'Lumen'],
         github_link: 'https://github.com/Luca-Castelnuovo/WiskundeSite',
-        demo_link: 'https://api.wiskundesite.ml'
+        // demo_link: 'https://api.wiskundesite.ml'
     },
     {
         title: 'TechAssistants Soest',
