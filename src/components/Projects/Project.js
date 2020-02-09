@@ -19,7 +19,9 @@ const Project = ({
                 </div>
                 <div className="card-content">
                     <p className="title is-4">{title}</p>
-                    <div className="content">{description}</div>
+                    {description && (
+                        <div className="content">{description}</div>
+                    )}
                     {tags.length > 0 && (
                         <div className="content">
                             <div className="tags are-medium">
@@ -70,7 +72,7 @@ const Project = ({
 Project.propTypes = {
     title: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    description: PropTypes.string,
     tags: PropTypes.array.isRequired,
     github_link: PropTypes.string,
     demo_link: PropTypes.string
