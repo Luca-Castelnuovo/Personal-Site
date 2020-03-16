@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const ContactText = ({ title, register, settings, error }) => {
     return (
         <div className="field">
-            <label className="label is-medium" for={title}>
+            <label className="label is-medium" htmlFor={title}>
                 {title}
             </label>
             <div className="control has-icons-right">
