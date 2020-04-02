@@ -7,14 +7,14 @@ import techAssistantsNuth from 'assets/images/techAssistantsNuth.png';
 import bvhBouwEnTimmerwerken from 'assets/images/bvhBouwEnTimmerwerken.png';
 import hblBetaSterren from 'assets/images/hblBetaSterren.png';
 import centrumInternationaleKinderontvoering from 'assets/images/centrumInternationaleKinderontvoering.png';
+import mailJS from 'assets/images/mailJS.png';
 import testingPlatform from 'assets/images/testingPlatform.png';
-import files from 'assets/images/files.png';
-import instakilo from 'assets/images/NULL.png';
+import instakilo from 'assets/images/instakilo.png';
 import accounts from 'assets/images/accounts.png';
-import share from 'assets/images/NULL.png';
-import api from 'assets/images/NULL.png';
+import transfer from 'assets/images/transfer.png';
+import api from 'assets/images/api.png';
+import portfolio from 'assets/images/portfolio.png';
 import broodtNu from 'assets/images/broodtnu.png';
-import deploy from 'assets/images/deploy.png';
 import andAannemersbedrijf from 'assets/images/andAannemersbedrijf.png';
 import hblKerstmarkt from 'assets/images/hblKerstmarkt.png';
 import hblLustrum from 'assets/images/hbl.png';
@@ -104,6 +104,14 @@ const Projects = [
             'https://www.kinderontvoering.org/uploads/stappenplan/index.html'
     },
     {
+        title: 'MailJS',
+        image: mailJS,
+        description: 'Send mails from client only applications',
+        tags: ['PHP', 'JS', 'MaterializeCSS'],
+        github_link: 'https://github.com/Luca-Castelnuovo/MailJS',
+        demo_link: 'https://mail.lucacastelnuovo.nl/'
+    },
+    {
         title: 'TestingPlatform',
         image: testingPlatform,
         description: 'System for quickly testing and hosting mock-ups.',
@@ -112,19 +120,13 @@ const Projects = [
         demo_link: 'https://test.lucacastelnuovo.nl/'
     },
     {
-        title: 'Files Manager',
-        image: files,
-        description: 'Auto pull repo for filestorage on my server.',
-        tags: ['PHP', 'JS', 'MaterializeCSS'],
-        github_link: 'https://github.com/Luca-Castelnuovo/FileStorage',
-        demo_link: 'https://files.lucacastelnuovo.nl/'
-    },
-    {
         title: 'InstaKilo',
         image: instakilo,
         description: 'InstaGram clone that is a thousand times better.',
         tags: ['PHP', 'JS', 'MaterializeCSS'],
-        github_link: 'https://github.com/Luca-Castelnuovo/InstaKilo'
+        github_link: 'https://github.com/Luca-Castelnuovo/InstaKilo',
+        demo_link:
+            'https://docs.google.com/document/d/1FxYi7Hg7rRkNN_UYCI_w2kebk-TWbgcF8Yn2SDZMNEY/edit?usp=sharing'
     },
     {
         title: 'Accounts OAUTH',
@@ -135,11 +137,12 @@ const Projects = [
         github_link: 'https://github.com/Luca-Castelnuovo/Accounts'
     },
     {
-        title: 'Share Secrets',
-        image: share,
-        description: 'Easily share secrets, API accessible',
-        tags: ['PHP', 'JS', 'MaterializeCSS'],
-        github_link: 'https://github.com/Luca-Castelnuovo/Share'
+        title: 'Transfer Secrets',
+        image: transfer,
+        description: 'Modified fork of PrivateBin',
+        tags: ['PHP'],
+        github_link: 'https://github.com/Luca-Castelnuovo/Transfer',
+        demo_link: 'https://transfer.lucacastelnuovo.nl/'
     },
     {
         title: 'API',
@@ -149,12 +152,11 @@ const Projects = [
         github_link: 'https://github.com/Luca-Castelnuovo/API'
     },
     {
-        title: 'Deploy',
-        image: deploy,
-        description: 'Auto-Deploy github repos to my server',
-        tags: ['PHP', 'git-auto-deploy'],
-        github_link: 'https://github.com/Luca-Castelnuovo/Deploy',
-        demo_link: 'https://deploy.lucacastelnuovo.nl/'
+        title: 'Portfolio',
+        image: portfolio,
+        description: 'This Site :D',
+        tags: ['React', 'Bulma'],
+        github_link: 'https://github.com/Luca-Castelnuovo/Personal-Site'
     },
     {
         title: 'BroodtNu Backend',
