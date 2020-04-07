@@ -57,7 +57,7 @@ const Projects = [
         github_link:
             'https://github.com/Luca-Castelnuovo/Urinaltractinfection-Medicineprediction-AI',
         demo_link:
-            'https://cdn.lucacastelnuovo.nl/files/bigdata/pws.bf938df20099615d20d2fa3690684b718ac6da1c.pdf'
+            'https://lucacastelnuovo.nl/pdf/pws.pdf'
     },
     {
         title: 'WiskundeSite',
