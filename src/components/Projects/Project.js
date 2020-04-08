@@ -15,7 +15,7 @@ const Project = ({
                 <div className="card-image">
                     <figure className="image is-4by3">
                         <img
-                            src={`https://cms.lucacastelnuovo.nl/storage/${image.path}`}
+                            src={`https://cms.lucacastelnuovo.nl${image.path}`}
                             alt={title}
                         />
                     </figure>
