@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const useProjects = () => {
     const [projects, setProjects] = useState(null);
-    const projectsLocal = localStorage.getItem('projects');
+    const projectsLocal = sessionStorage.getItem('projects');
 
     useEffect(() => {
         if (projectsLocal) {
@@ -16,7 +16,7 @@ const useProjects = () => {
             const json = await response.json();
 
             setProjects(json.entries);
-            localStorage.setItem('projects', JSON.stringify(json.entries));
+            sessionStorage.setItem('projects', JSON.stringify(json.entries));
         };
 
         fetchData();
