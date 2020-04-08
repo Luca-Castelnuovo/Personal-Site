@@ -7,14 +7,14 @@ const Project = ({
     description,
     tags,
     github_link,
-    demo_link
+    demo_link,
 }) => {
     return (
         <div data-aos="zoom-in-left" className="column is-one-quarter">
             <div className="card">
                 <div className="card-image">
                     <figure className="image is-4by3">
-                        <img src={image} alt={title} />
+                        <img src={image.path} alt={title} />
                     </figure>
                 </div>
                 <div className="card-content">
@@ -25,7 +25,7 @@ const Project = ({
                     {tags.length > 0 && (
                         <div className="content">
                             <div className="tags are-medium">
-                                {tags.map(tag => {
+                                {tags.map((tag) => {
                                     return (
                                         <span key={tag} className="tag">
                                             {tag}
@@ -71,11 +71,11 @@ const Project = ({
 
 Project.propTypes = {
     title: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
+    image: PropTypes.object.isRequired,
     description: PropTypes.string,
-    tags: PropTypes.array.isRequired,
+    // tags: PropTypes.array.isRequired,
     github_link: PropTypes.string,
-    demo_link: PropTypes.string
+    demo_link: PropTypes.string,
 };
 
 export default Project;

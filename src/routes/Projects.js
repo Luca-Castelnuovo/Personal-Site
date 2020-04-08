@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Project from 'components/Projects/Project';
-import ProjectsConfig from 'config/Projects';
+import useProjects from 'hooks/useProjects';
 
 const Projects = () => {
+    const projects = useProjects();
+
     return (
         <>
             <section className="section">
@@ -23,9 +25,12 @@ const Projects = () => {
             <section className="section">
                 <div className="container has-text-centered is-fullhd box">
                     <div className="columns is-multiline">
-                        {ProjectsConfig.map(project => {
-                            return <Project key={project.title} {...project} />;
-                        })}
+                        {projects &&
+                            projects.map((project) => {
+                                return (
+                                    <Project key={project.title} {...project} />
+                                );
+                            })}
                     </div>
                 </div>
             </section>
