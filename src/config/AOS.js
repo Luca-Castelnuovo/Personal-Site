@@ -10,7 +10,7 @@ const AOS = {
     easing: 'ease',
     once: true,
     mirror: false,
-    anchorPlacement: 'top-bottom'
+    anchorPlacement: 'top-bottom',
 };
 
 export default AOS;
