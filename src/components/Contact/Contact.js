@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import classnames from 'classnames';
-import EmailJS from 'config/EmailJS';
+import MailJS from 'mailjs-sdk';
+import MailJSConfig from 'config/MailJS';
 
 import ContactInput from './ContactInput';
 import ContactText from './ContactText';
@@ -9,31 +10,22 @@ import ContactText from './ContactText';
 const Contact = () => {
     const [isSubmitted, setSubmitted] = useState(false);
     const { register, handleSubmit, errors, formState } = useForm({
-        mode: 'onBlur'
+        mode: 'onBlur',
     });
 
-    const onSubmit = async data => {
-        const url = 'https://api.emailjs.com/api/v1.0/email/send';
-        await fetch(url, {
-            method: 'POST',
-            headers: {
-                'Content-type': 'application/json'
-            },
-            body: JSON.stringify({
-                ...EmailJS,
-                template_params: data
-            })
-        })
-            .then(data => {
+    const onSubmit = async (data) => {
+        MailJS.send(MailJSConfig.access_token, data).then(
+            (response) => {
                 setSubmitted(true);
-            })
-            .catch(error => {
+            },
+            (error) => {
                 console.error('Error: ' + error);
-            });
+            }
+        );
     };
 
     const btnClass = classnames('button is-primary is-rounded is-medium', {
-        'is-loading': formState.isSubmitting
+        'is-loading': formState.isSubmitting,
     });
 
     return (
@@ -64,12 +56,12 @@ const Contact = () => {
                                         required: 'Name is required',
                                         minLength: {
                                             value: 4,
-                                            message: 'Minimum length is 4'
+                                            message: 'Minimum length is 4',
                                         },
                                         maxLength: {
                                             value: 64,
-                                            message: 'Maximum length is 64'
-                                        }
+                                            message: 'Maximum length is 64',
+                                        },
                                     }}
                                     error={errors.Name}
                                 />
@@ -81,8 +73,8 @@ const Contact = () => {
                                         required: 'Email is required',
                                         pattern: {
                                             value: /^\S+@\S+$/i,
-                                            message: 'Email must be valid'
-                                        }
+                                            message: 'Email must be valid',
+                                        },
                                     }}
                                     error={errors.Email}
                                 />
@@ -94,8 +86,8 @@ const Contact = () => {
                                         required: 'Message is required',
                                         minLength: {
                                             value: 25,
-                                            message: 'Minimum length is 25'
-                                        }
+                                            message: 'Minimum length is 25',
+                                        },
                                     }}
                                     error={errors.Message}
                                 />

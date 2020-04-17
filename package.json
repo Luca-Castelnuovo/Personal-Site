@@ -54,6 +54,7 @@
         "aos": "^2.3.4",
         "bulma": "^0.8.2",
         "classnames": "^2.2.6",
+        "mailjs-sdk": "^1.0.0",
         "node-sass": "^4.13.1",
         "prop-types": "^15.7.2",
         "react": "^16.13.1",
