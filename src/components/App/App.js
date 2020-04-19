@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Analytics from 'components/Analytics';
 
 import Home from 'routes/Home';
 import Projects from 'routes/Projects';
@@ -21,6 +22,7 @@ const App = () => {
 
     return (
         <Router>
+            <Analytics />
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/projects" component={Projects} />
