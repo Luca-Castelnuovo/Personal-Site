@@ -31,7 +31,7 @@ const AboutMe = () => {
                             </p>
 
                             <a
-                                href="https://castelnuovo.xyz/cv"
+                                href="/pdf/cv.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="button is-medium"
