@@ -14,10 +14,7 @@ const Project = ({
             <div className="card">
                 <div className="card-image">
                     <figure className="image is-4by3">
-                        <img
-                            src={`https://cms.lucacastelnuovo.nl${image.path}`}
-                            alt={title}
-                        />
+                        <img src={image} alt={title} />
                     </figure>
                 </div>
                 <div className="card-content">
@@ -74,9 +71,9 @@ const Project = ({
 
 Project.propTypes = {
     title: PropTypes.string.isRequired,
-    image: PropTypes.object.isRequired,
+    image: PropTypes.any.isRequired,
     description: PropTypes.string,
-    // tags: PropTypes.array.isRequired,
+    tags: PropTypes.array,
     github_link: PropTypes.string,
     demo_link: PropTypes.string,
 };

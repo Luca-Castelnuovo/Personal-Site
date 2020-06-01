@@ -32,11 +32,11 @@ ContactInput.propTypes = {
     title: PropTypes.string.isRequired,
     register: PropTypes.any.isRequired,
     settings: PropTypes.object.isRequired,
-    error: PropTypes.object
+    error: PropTypes.object,
 };
 
 ContactInput.defaultProps = {
-    error: null
+    error: null,
 };
 
 export default ContactInput;

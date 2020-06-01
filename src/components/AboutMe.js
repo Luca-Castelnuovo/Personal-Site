@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from 'assets/profile.jpg';
+import profile from 'assets/profile.webp';
 
 const AboutMe = () => {
     return (
@@ -31,7 +31,7 @@ const AboutMe = () => {
                             </p>
 
                             <a
-                                href="https://castelnuovo.xyz/cv"
+                                href="/pdf/cv.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="button is-medium"

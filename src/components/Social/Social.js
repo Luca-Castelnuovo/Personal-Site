@@ -3,25 +3,16 @@ import SocialBtn from './SocialBtn';
 
 const Social = () => {
     return (
-        <section className="section has-text-centered ">
-            <div data-aos="fade-up" className="container box">
+        <section className="section has-text-centered">
+            <div className="container box">
                 <div className="buttons is-centered">
-                    <SocialBtn
-                        type="github"
-                        to="https://castelnuovo.xyz/github"
-                    >
+                    <SocialBtn type="github" to="/github">
                         GitHub
                     </SocialBtn>
-                    <SocialBtn
-                        type="linkedin"
-                        to="https://castelnuovo.xyz/linkedin"
-                    >
+                    <SocialBtn type="linkedin" to="/linkedin">
                         LinkedIn
                     </SocialBtn>
-                    <SocialBtn
-                        type="instagram"
-                        to="https://castelnuovo.xyz/instagram"
-                    >
+                    <SocialBtn type="instagram" to="/instagram">
                         Instagram
                     </SocialBtn>
                 </div>

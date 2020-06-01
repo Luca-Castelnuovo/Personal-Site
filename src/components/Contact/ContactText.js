@@ -31,11 +31,11 @@ ContactText.propTypes = {
     title: PropTypes.string.isRequired,
     register: PropTypes.any.isRequired,
     settings: PropTypes.object.isRequired,
-    error: PropTypes.object
+    error: PropTypes.object,
 };
 
 ContactText.defaultProps = {
-    error: null
+    error: null,
 };
 
 export default ContactText;

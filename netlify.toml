@@ -1,4 +1,4 @@
- [build]
+[build]
   base = ""
   publish = "build/"
   command = "npm run build"
@@ -48,3 +48,51 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+#######
+# PDF #
+#######
+[[redirects]]
+  from = "/cv"
+  to = "/pdf/cv.pdf"
+
+########
+# Keys #
+########
+[[redirects]]
+  from = "/ssh"
+  to = "/keys/ssh-13377661.txt"
+
+[[redirects]]
+  from = "/pgp"
+  to = "/keys/pgp-13377661.txt"
+
+###########
+# Socials #
+###########
+[[redirects]]
+  from = "/github"
+  to = "https://github.com/Luca-Castelnuovo"
+
+[[redirects]]
+  from = "/instagram"
+  to = "https://www.instagram.com/ltcastelnuovo"
+
+[[redirects]]
+  from = "/linkedin"
+  to = "https://www.linkedin.com/in/ltcastelnuovo/"
+
+[[redirects]]
+  from = "/snapchat"
+  to = "https://www.snapchat.com/add/ltcastelnuovo"
+
+[[redirects]]
+  from = "/twitter"
+  to = "https://twitter.com/LucaCastelnuovo"
+
+#########
+# Other #
+#########
+[[redirects]]
+  from = "/paypal"
+  to = "http://paypal.me/ltcastelnuovo"

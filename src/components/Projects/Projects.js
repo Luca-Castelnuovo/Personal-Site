@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Project from './Project';
-import useProjects from 'hooks/useProjects';
+import ProjectsConfig from 'config/Projects';
 
 const Projects = () => {
-    const projects = useProjects();
-
     return (
         <section className="section">
             <div className="container is-fullhd box">
@@ -27,10 +25,9 @@ const Projects = () => {
                         </Link>
                     </div>
 
-                    {projects &&
-                        projects.slice(0, 3).map((project) => {
-                            return <Project key={project.title} {...project} />;
-                        })}
+                    {ProjectsConfig.slice(0, 3).map((project) => {
+                        return <Project key={project.title} {...project} />;
+                    })}
                 </div>
             </div>
         </section>
