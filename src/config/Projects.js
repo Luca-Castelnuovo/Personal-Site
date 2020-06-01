@@ -1,7 +1,7 @@
 import hetHakHout from 'assets/projects/hetHakHout.webp';
 import techAssistantsSoest from 'assets/projects/techAssistantsSoest.webp';
 import urinalTractinfectionAI from 'assets/projects/urinalTractinfectionAI.webp';
-import cubequence from 'assets/projects/cubequence.webp'; // use new logo
+import cubequence from 'assets/projects/cubequence.webp';
 import techAssistantsNuth from 'assets/projects/techAssistantsNuth.webp';
 import centrumInternationaleKinderontvoering from 'assets/projects/centrumInternationaleKinderontvoering.webp';
 import bvhBouwEnTimmerwerken from 'assets/projects/bvhBouwEnTimmerwerken.webp';
@@ -10,9 +10,9 @@ import andAannemersbedrijf from 'assets/projects/andAannemersbedrijf.webp';
 import hblKerstmarkt from 'assets/projects/hblKerstmarkt.webp';
 import hblLustrum from 'assets/projects/hblLustrum.webp';
 import broodtNu from 'assets/projects/broodtNu.webp';
-import apps from 'assets/projects/apps.webp'; // use new logo
-import mailJS from 'assets/projects/mailJS.webp'; // use new logo
-import testingPlatform from 'assets/projects/testingPlatform.webp'; // use new logo
+import apps from 'assets/projects/apps.webp';
+import mailJS from 'assets/projects/mailJS.webp';
+import testingPlatform from 'assets/projects/testingPlatform.webp';
 import instakilo from 'assets/projects/instakilo.webp';
 import wiskundeSite from 'assets/projects/wiskundeSite.webp';
 import portfolio from 'assets/projects/portfolio.webp';
