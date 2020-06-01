@@ -20,7 +20,7 @@ const SocialBtn = ({ type, to, children }) => {
 SocialBtn.propTypes = {
     type: PropTypes.string.isRequired,
     to: PropTypes.string.isRequired,
-    children: PropTypes.node.isRequired
+    children: PropTypes.node.isRequired,
 };
 
 export default SocialBtn;
