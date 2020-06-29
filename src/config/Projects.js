@@ -1,22 +1,23 @@
-import hetHakHout from 'assets/projects/hetHakHout.webp';
-import techAssistantsSoest from 'assets/projects/techAssistantsSoest.webp';
-import urinalTractinfectionAI from 'assets/projects/urinalTractinfectionAI.webp';
-import cubequence from 'assets/projects/cubequence.webp';
-import techAssistantsNuth from 'assets/projects/techAssistantsNuth.webp';
-import centrumInternationaleKinderontvoering from 'assets/projects/centrumInternationaleKinderontvoering.webp';
-import bvhBouwEnTimmerwerken from 'assets/projects/bvhBouwEnTimmerwerken.webp';
-import hblBetaSterren from 'assets/projects/hblBetaSterren.webp';
-import andAannemersbedrijf from 'assets/projects/andAannemersbedrijf.webp';
-import hblKerstmarkt from 'assets/projects/hblKerstmarkt.webp';
-import hblLustrum from 'assets/projects/hblLustrum.webp';
-import broodtNu from 'assets/projects/broodtNu.webp';
-import apps from 'assets/projects/apps.webp';
-import mailJS from 'assets/projects/mailJS.webp';
-import testingPlatform from 'assets/projects/testingPlatform.webp';
-import instakilo from 'assets/projects/instakilo.webp';
-import wiskundeSite from 'assets/projects/wiskundeSite.webp';
-import portfolio from 'assets/projects/portfolio.webp';
-import archive from 'assets/projects/archive.webp';
+import hetHakHout from 'assets/projects/hetHakHout.jpg';
+import techAssistantsSoest from 'assets/projects/techAssistantsSoest.jpg';
+import urinalTractinfectionAI from 'assets/projects/urinalTractinfectionAI.jpg';
+import cubequence from 'assets/projects/cubequence.jpg';
+import techAssistantsNuth from 'assets/projects/techAssistantsNuth.jpg';
+import centrumInternationaleKinderontvoering from 'assets/projects/centrumInternationaleKinderontvoering.jpg';
+import bvhBouwEnTimmerwerken from 'assets/projects/bvhBouwEnTimmerwerken.jpg';
+import hblBetaSterren from 'assets/projects/hblBetaSterren.jpg';
+import andAannemersbedrijf from 'assets/projects/andAannemersbedrijf.jpg';
+import hblKerstmarkt from 'assets/projects/hblKerstmarkt.jpg';
+import hblLustrum from 'assets/projects/hblLustrum.jpg';
+import broodtNu from 'assets/projects/broodtNu.jpg';
+import apps from 'assets/projects/apps.jpg';
+import mailJS from 'assets/projects/mailJS.jpg';
+import testingPlatform from 'assets/projects/testingPlatform.jpg';
+import urlShortener from 'assets/projects/urlShortener.jpg';
+import instakilo from 'assets/projects/instakilo.jpg';
+import wiskundeSite from 'assets/projects/wiskundeSite.jpg';
+import portfolio from 'assets/projects/portfolio.jpg';
+import archive from 'assets/projects/archive.jpg';
 
 const Projects = [
     {
@@ -136,6 +137,14 @@ const Projects = [
         demo_link: 'https://apps.lucacastelnuovo.nl/',
         github_link: 'https://github.com/Luca-Castelnuovo/Apps',
     },
+    // {
+    //     title: 'Deploy',
+    //     description: 'Auto deploy and build with Github webhooks',
+    //     image: deploy,
+    //     tags: ['CubeQuence', 'MaterializeCSS', 'JS'],
+    //     demo_link: 'https://deploy.lucacastelnuovo.nl/',
+    //     github_link: 'https://github.com/Luca-Castelnuovo/Deploy',
+    // },
     {
         title: 'MailJS',
         description:
@@ -148,10 +157,19 @@ const Projects = [
     {
         title: 'Testing Platform',
         description: 'Centralized auth server for managing access to my apps',
-        image: testingPlatform, // use new logo
+        image: testingPlatform,
         tags: ['CubeQuence', 'MaterializeCSS', 'JS'],
         demo_link: 'https://test.lucacastelnuovo.nl/',
         github_link: 'https://github.com/Luca-Castelnuovo/TestingPlatform',
+    },
+    {
+        title: 'URL Shortener',
+        description:
+            'URL shortener, with optional QR, confirmation page, password protection and expiring links',
+        image: urlShortener,
+        tags: ['CubeQuence', 'MaterializeCSS', 'JS'],
+        demo_link: 'https://castelnuovo.xyz/',
+        github_link: 'https://github.com/Luca-Castelnuovo/URL-Shortener',
     },
     {
         title: 'InstaKilo',
