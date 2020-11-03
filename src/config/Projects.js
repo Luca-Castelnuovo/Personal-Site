@@ -1,3 +1,4 @@
+import sluijterKappers from 'assets/projects/sluijterKappers.jpg';
 import hetHakHout from 'assets/projects/hetHakHout.jpg';
 import techAssistantsSoest from 'assets/projects/techAssistantsSoest.jpg';
 import urinalTractinfectionAI from 'assets/projects/urinalTractinfectionAI.jpg';
@@ -20,6 +21,15 @@ import portfolio from 'assets/projects/portfolio.jpg';
 import archive from 'assets/projects/archive.jpg';
 
 const Projects = [
+    {
+        title: 'Sluijter Kappers',
+        description:
+            "Jan Sluijter werkt met de mooiste kleuringen van L'Oréal Professionnel en is onder andere gespecialiseerd in French Balayage.",
+        image: sluijterKappers,
+        tags: ['React', 'Bulma', 'CubeQuence'],
+        demo_link: 'https://sluijterkappers.nl',
+        github_link: null,
+    },
     {
         title: 'Het Hak Hout',
         description:
