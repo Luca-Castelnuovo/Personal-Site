@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import classnames from 'classnames';
-import MailJS from 'mailjs-sdk';
-import MailJSConfig from 'config/MailJS';
+import FormJS from 'formjs-sdk';
+import FormJSConfig from 'config/FormJS';
 
 import ContactInput from './ContactInput';
 import ContactText from './ContactText';
@@ -14,7 +14,7 @@ const Contact = () => {
     });
 
     const onSubmit = async (data) => {
-        MailJS.send(MailJSConfig.access_token, data).then(
+        FormJS.send(FormJSConfig.site_key, data).then(
             (response) => {
                 setSubmitted(true);
             },
