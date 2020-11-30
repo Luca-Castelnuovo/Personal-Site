@@ -11,10 +11,10 @@ import andAannemersbedrijf from 'assets/projects/andAannemersbedrijf.jpg';
 import hblKerstmarkt from 'assets/projects/hblKerstmarkt.jpg';
 import hblLustrum from 'assets/projects/hblLustrum.jpg';
 import broodtNu from 'assets/projects/broodtNu.jpg';
-import apps from 'assets/projects/apps.jpg';
 import mailJS from 'assets/projects/mailJS.jpg';
 import testingPlatform from 'assets/projects/testingPlatform.jpg';
 import urlShortener from 'assets/projects/urlShortener.jpg';
+import apps from 'assets/projects/apps.jpg';
 import instakilo from 'assets/projects/instakilo.jpg';
 import wiskundeSite from 'assets/projects/wiskundeSite.jpg';
 import portfolio from 'assets/projects/portfolio.jpg';
@@ -132,7 +132,7 @@ const Projects = [
         github_link: null,
     },
     {
-        title: 'Broodt',
+        title: 'Broodt Nu',
         description: 'REST API Backend for Broodt Nu',
         image: broodtNu,
         tags: ['Lumen', 'PHP'],
@@ -140,36 +140,29 @@ const Projects = [
         github_link: 'https://github.com/broodt-nu/backend',
     },
     {
-        title: 'Apps',
-        description: 'Centralized auth server for managing access to my apps',
-        image: apps,
+        title: 'FormJS (MailJSv2)',
+        description:
+            'Backend for email submissions powering serverless applications',
+        image: mailJS,
         tags: ['CubeQuence', 'MaterializeCSS', 'JS'],
-        demo_link: 'https://apps.lucacastelnuovo.nl/',
-        github_link: 'https://github.com/Luca-Castelnuovo/Apps',
+        demo_link: 'https://form.castelnuovo.xyz',
+        github_link: 'https://github.com/Luca-Castelnuovo/FormJS',
     },
-    // {
-    //     title: 'Deploy',
-    //     description: 'Auto deploy and build with Github webhooks',
-    //     image: deploy,
-    //     tags: ['CubeQuence', 'MaterializeCSS', 'JS'],
-    //     demo_link: 'https://deploy.lucacastelnuovo.nl/',
-    //     github_link: 'https://github.com/Luca-Castelnuovo/Deploy',
-    // },
     {
         title: 'MailJS',
         description:
             'Backend for email submissions powering serverless applications',
         image: mailJS,
         tags: ['CubeQuence', 'MaterializeCSS', 'JS'],
-        demo_link: 'https://mailjs.lucacastelnuovo.nl/',
-        github_link: 'https://github.com/Luca-Castelnuovo/MailJS',
+        demo_link: null,
+        github_link: 'https://github.com/Luca-Castelnuovo-Archive/MailJS',
     },
     {
         title: 'Testing Platform',
         description: 'Centralized auth server for managing access to my apps',
         image: testingPlatform,
         tags: ['CubeQuence', 'MaterializeCSS', 'JS'],
-        demo_link: 'https://test.lucacastelnuovo.nl/',
+        demo_link: 'https://test.castelnuovo.xyz/',
         github_link: 'https://github.com/Luca-Castelnuovo/TestingPlatform',
     },
     {
@@ -182,12 +175,20 @@ const Projects = [
         github_link: 'https://github.com/Luca-Castelnuovo/URL-Shortener',
     },
     {
+        title: 'Apps',
+        description: 'Centralized auth server for managing access to my apps',
+        image: apps,
+        tags: ['CubeQuence', 'MaterializeCSS', 'JS'],
+        demo_link: null,
+        github_link: 'https://github.com/Luca-Castelnuovo-Archive/Apps',
+    },
+    {
         title: 'InstaKilo',
         description: 'InstaGram clone that is a thousand times better',
         image: instakilo,
         tags: ['PHP', 'MaterializeCSS', 'JS'],
         demo_link: '/pdf/instakilo.pdf',
-        github_link: 'https://github.com/Luca-Castelnuovo/InstaKilo',
+        github_link: 'https://github.com/Luca-Castelnuovo-Archive/InstaKilo',
     },
     {
         title: 'Wiskunde Site',
@@ -195,7 +196,7 @@ const Projects = [
         image: wiskundeSite,
         tags: ['Lumen', 'PHP'],
         demo_link: null,
-        github_link: 'https://github.com/Luca-Castelnuovo/WiskundeSite',
+        github_link: 'https://github.com/Luca-Castelnuovo-Archive/WiskundeSite',
     },
     {
         title: 'Portfolio',
